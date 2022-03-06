@@ -1,0 +1,257 @@
+load res/example/PPM/OGImage.ppm og
+
+load res/example/PNG/Mask.png mask
+
+brighten 10 og og-brighter
+
+darken 10 og og-darker
+
+vertical-flip og og-vertical
+
+both-flip og og-both
+
+horizontal-flip og-vertical og-vertical-horizontal
+
+values-component og og-greyscale
+
+red-component og og-redgreyscale
+
+green-component og og-greengreyscale
+
+blue-component og og-bluegreyscale
+
+luma-component og og-lumagreyscale
+
+intensity-component og og-intensitygreyscale
+
+sepia-tone og og-sepiatone
+
+greyscale-trans og og-transgreyscale
+
+blur og og-blur
+
+sharpen og og-sharpened
+
+partial mask values-component og og-value-partial
+
+partial mask red-component og og-red-partial
+
+partial mask green-component og og-green-partial
+
+partial mask  blue-component og og-blue-partial
+
+partial mask  luma-component og og-luma-partial
+
+partial mask  intensity-component og og-intensity-partial
+
+partial mask  sepia-tone og og-sepiatone-partial
+
+partial mask  greyscale-trans og og-transgreyscale-partial
+
+partial mask  blur og og-blur-partial
+
+partial mask  sharpen og og-sharpen-partial
+
+downsizing 1 1 og og-small1
+
+downsizing 2 2 og og-small2
+
+save res/scriptOutput/bright.ppm og-brighter
+
+load res/scriptOutput/bright.ppm og
+save res/scriptOutput/ogOverload.ppm og-brighter
+save res/scriptOutput/dark.ppm og-darker
+save res/scriptOutput/vertical.ppm og-vertical
+save res/scriptOutput/both.ppm og-both
+save res/scriptOutput/horizontalVertical.ppm og-vertical-horizontal
+save res/scriptOutput/values.ppm og-greyscale
+save res/scriptOutput/red.ppm og-redgreyscale
+save res/scriptOutput/green.ppm og-greengreyscale
+save res/scriptOutput/blue.ppm og-bluegreyscale
+save res/scriptOutput/luma.ppm og-lumagreyscale
+save res/scriptOutput/intensity.ppm og-intensitygreyscale
+save res/scriptOutput/sepia.ppm og-sepiatone
+save res/scriptOutput/greyscaleTrans.ppm og-transgreyscale
+save res/scriptOutput/blur.ppm og-blur
+save res/scriptOutput/sharpen.ppm og-sharpened
+save res/scriptOutput/sharpenSaveAs.jpeg og-sharpened
+save res/scriptOutput/sharpenSaveAs.png og-sharpened
+save res/scriptOutput/sharpenSaveAs.bmp og-sharpened
+save res/scriptOutput/valuePartial.png og-value-partial
+save res/scriptOutput/redPartial.png og-red-partial
+save res/scriptOutput/greenPartial.png og-green-partial
+save res/scriptOutput/bluePartial.png og-blue-partial
+save res/scriptOutput/lumaPartial.png og-luma-partial
+save res/scriptOutput/intensityPartial.png og-intensity-partial
+save res/scriptOutput/sepiatonePartial.png og-sepiatone-partial
+save res/scriptOutput/greyscalePartial.png og-transgreyscale-partial
+save res/scriptOutput/blurPartial.png og-blur-partial
+save res/scriptOutput/sharpenPartial.png og-sharpen-partial
+save res/scriptOutput/small1.ppm og-small1
+save res/scriptOutput/small2.ppm og-small2
+
+load res/example/PNG/OGImage.png og
+
+brighten 10 og og-brighter
+
+darken 10 og og-darker
+
+vertical-flip og og-vertical
+
+both-flip og og-both
+
+horizontal-flip og-vertical og-vertical-horizontal
+
+values-component og og-greyscale
+
+red-component og og-redgreyscale
+
+green-component og og-greengreyscale
+
+blue-component og og-bluegreyscale
+
+luma-component og og-lumagreyscale
+
+intensity-component og og-intensitygreyscale
+
+sepia-tone og og-sepiatone
+
+greyscale-trans og og-transgreyscale
+
+blur og og-blur
+
+sharpen og og-sharpened
+
+save res/scriptOutput/bright.png og-brighter
+
+load res/scriptOutput/bright.png og
+save res/scriptOutput/ogOverload.png og-brighter
+save res/scriptOutput/darker.png og-darker
+save res/scriptOutput/vertical.png og-vertical
+save res/scriptOutput/both.png og-both
+save res/scriptOutput/horizontalVertical.png og-vertical-horizontal
+save res/scriptOutput/values.png og-greyscale
+save res/scriptOutput/red.png og-redgreyscale
+save res/scriptOutput/green.png og-greengreyscale
+save res/scriptOutput/blue.png og-bluegreyscale
+save res/scriptOutput/luma.png og-lumagreyscale
+save res/scriptOutput/intensity.png og-intensitygreyscale
+save res/scriptOutput/sepia.png og-sepiatone
+save res/scriptOutput/greyscaleTrans.png og-transgreyscale
+save res/scriptOutput/blur.png og-blur
+save res/scriptOutput/sharpen.png og-sharpened
+save res/scriptOutput/small1.png og-small1
+save res/scriptOutput/small2.png og-small2
+save res/scriptOutput/sharpenSaveAs1.jpeg og-sharpened
+save res/scriptOutput/sharpenSaveAs1.ppm og-sharpened
+save res/scriptOutput/sharpenSaveAs1.bmp og-sharpened
+
+load res/example/JPEG/OGImage.jpeg og
+
+brighten 10 og og-brighter
+
+darken 10 og og-darker
+
+vertical-flip og og-vertical
+
+both-flip og og-both
+
+horizontal-flip og-vertical og-vertical-horizontal
+
+values-component og og-greyscale
+
+red-component og og-redgreyscale
+
+green-component og og-greengreyscale
+
+blue-component og og-bluegreyscale
+
+luma-component og og-lumagreyscale
+
+intensity-component og og-intensitygreyscale
+
+sepia-tone og og-sepiatone
+
+greyscale-trans og og-transgreyscale
+
+blur og og-blur
+
+sharpen og og-sharpened
+
+save res/scriptOutput/bright.jpeg og-brighter
+
+load res/scriptOutput/bright.jpeg og
+save res/scriptOutput/ogOverload.jpeg og-brighter
+save res/scriptOutput/darker.jpeg og-darker
+save res/scriptOutput/vertical.jpeg og-vertical
+save res/scriptOutput/both.jpeg og-both
+save res/scriptOutput/horizontalVertical.jpeg og-vertical-horizontal
+save res/scriptOutput/values.jpeg og-greyscale
+save res/scriptOutput/red.jpeg og-redgreyscale
+save res/scriptOutput/green.jpeg og-greengreyscale
+save res/scriptOutput/blue.jpeg og-bluegreyscale
+save res/scriptOutput/luma.jpeg og-lumagreyscale
+save res/scriptOutput/intensity.jpeg og-intensitygreyscale
+save res/scriptOutput/sepia.jpeg og-sepiatone
+save res/scriptOutput/greyscaleTrans.jpeg og-transgreyscale
+save res/scriptOutput/blur.jpeg og-blur
+save res/scriptOutput/sharpen.jpeg og-sharpened
+save res/scriptOutput/small1.jpeg og-small1
+save res/scriptOutput/small2.jpeg og-small2
+save res/scriptOutput/sharpenSaveAs2.png og-sharpened
+save res/scriptOutput/sharpenSaveAs2.ppm og-sharpened
+save res/scriptOutput/sharpenSaveAs2.bmp og-sharpened
+
+load res/example/BMP/OGImage.bmp og
+
+brighten 10 og og-brighter
+
+darken 10 og og-darker
+
+vertical-flip og og-vertical
+
+both-flip og og-both
+
+horizontal-flip og-vertical og-vertical-horizontal
+
+values-component og og-greyscale
+
+red-component og og-redgreyscale
+
+green-component og og-greengreyscale
+
+blue-component og og-bluegreyscale
+
+luma-component og og-lumagreyscale
+
+intensity-component og og-intensitygreyscale
+
+sepia-tone og og-sepiatone
+
+greyscale-trans og og-transgreyscale
+
+blur og og-blur
+
+sharpen og og-sharpened
+
+save res/scriptOutput/bright.bmp og-brighter
+
+load res/scriptOutput/bright.bmp og
+save res/scriptOutput/ogOverload.bmp og-brighter
+save res/scriptOutput/darker.bmp og-darker
+save res/scriptOutput/vertical.bmp og-vertical
+save res/scriptOutput/both.bmp og-both
+save res/scriptOutput/horizontalVertical.bmp og-vertical-horizontal
+save res/scriptOutput/values.bmp og-greyscale
+save res/scriptOutput/red.bmp og-redgreyscale
+save res/scriptOutput/green.bmp og-greengreyscale
+save res/scriptOutput/blue.bmp og-bluegreyscale
+save res/scriptOutput/luma.bmp og-lumagreyscale
+save res/scriptOutput/intensity.bmp og-intensitygreyscale
+save res/scriptOutput/sepia.bmp og-sepiatone
+save res/scriptOutput/greyscaleTrans.bmp og-transgreyscale
+save res/scriptOutput/blur.bmp og-blur
+save res/scriptOutput/sharpen.bmp og-sharpened
+save res/scriptOutput/sharpenSaveAs3.png og-sharpened
+save res/scriptOutput/sharpenSaveAs3.ppm og-sharpened
+save res/scriptOutput/sharpenSaveAs3.jpeg og-sharpened
