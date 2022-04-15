@@ -1,4 +1,6 @@
-# Image Processing (OOD HW5)
+# Image Processing
+
+![Image of GUI](GUIScreenshot.png)
 
 ![Image of UML](ClassDiagram.png)
 
